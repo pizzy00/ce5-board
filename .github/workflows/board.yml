@@ -32,7 +32,7 @@ jobs:
             const MAX_TRIPS = 500, PER_RUN = 100, PER_NAME_DAY = 20, NAME_MAX = 24;
             const DEST = { "ZETA RETICULI": 39.3, "PLEIADES · TAYGETA": 444, "SIRIUS": 8.6, "ARCTURUS": 36.7, "VEGA · LYRA": 25,
               "ORION · RIGEL": 860, "ANDROMEDA": 2537000, "LUNA · FAR SIDE": 0, "DEEP OCEAN": 0, "BERMUDA TRIANGLE": 0, "EARTH": 0 };
-            const clean = (s, n) => String(s || "").normalize("NFC").toUpperCase().replace(/[^A-Z0-9 .'’\-—·À-ɏ]/g, "").replace(/\s+/g, " ").trim().slice(0, n);
+            const clean = (s, n) => String(s || "").normalize("NFC").toUpperCase().replace(/[^A-Z0-9 .'’\-—·À-ɏ]/g, " ").replace(/\s+/g, " ").trim().slice(0, n);
             const day = (t) => new Date(t).toISOString().slice(0, 10);
             // 1. what we have
             let board = { updated: "", trips: [], leaders: [], totals: {} }, had = false;

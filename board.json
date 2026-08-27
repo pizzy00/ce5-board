@@ -1,1 +1,1 @@
-{"updated":"2026-08-27T23:01:53.686Z","trips":[{"id":3,"n":"TEST PILOT 7","d":"SIRIUS","ly":8.6,"t":1787871705000},{"id":4,"n":"CHEAT IMG SRCX","d":"ZETA RETICULI","ly":39.3,"t":1787871706000}],"leaders":[{"n":"CHEAT IMG SRCX","trips":1,"ly":39.3,"far":39.3,"last":1787871706000},{"n":"TEST PILOT 7","trips":1,"ly":8.6,"far":8.6,"last":1787871705000}],"totals":{"TEST PILOT 7":{"trips":1,"ly":8.6,"far":8.6,"last":1787871705000},"CHEAT IMG SRCX":{"trips":1,"ly":39.3,"far":39.3,"last":1787871706000}}}
+{"updated":"","trips":[],"leaders":[],"totals":{}}

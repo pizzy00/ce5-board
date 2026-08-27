@@ -1,3 +1,17 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Nothing filed yet. Press START on https://pizzy00.github.io/ce5-beacon/ and fly one.
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-27 23:01 UTC
+
+## LEADERS — LIGHT-YEARS ALL TOLD
+
+| # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |
+|---|---|---|---|---|---|
+| 1 | CHEAT IMG SRCX | 1 | 39.3 LY | 39.3 LY | 2026-08-27 23:01 UTC |
+| 2 | TEST PILOT 7 | 1 | 8.6 LY | 8.6 LY | 2026-08-27 23:01 UTC |
+
+## THE LAST 100 TRIPS
+
+| WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
+|---|---|---|---|
+| 2026-08-27 23:01 UTC | CHEAT IMG SRCX | ZETA RETICULI | 39.3 LY |
+| 2026-08-27 23:01 UTC | TEST PILOT 7 | SIRIUS | 8.6 LY |

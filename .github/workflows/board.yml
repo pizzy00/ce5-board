@@ -1,0 +1,77 @@
+name: board
+# Every trip the beacon page files arrives as a new issue (body = one JSON object).
+# This turns the open issues into board.json + BOARD.md, commits them, and closes the issues.
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: board
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const MAX = 500, NAME_MAX = 24, DEST_MAX = 40, LY_MAX = 3000000;
+            const clean = (s, n) => String(s || "").replace(/[^\x20-\x7E·’—À-ɏ]/g, "").trim().toUpperCase().slice(0, n);
+            // 1. what we have
+            let board = { updated: "", trips: [], leaders: [] };
+            try { board = JSON.parse(fs.readFileSync("board.json", "utf8")); } catch (e) {}
+            const trips = Array.isArray(board.trips) ? board.trips : [];
+            const seen = new Set(trips.map((t) => t.id));
+            // 2. every open issue = a trip (or junk)
+            const issues = await github.paginate(github.rest.issues.listForRepo, { owner: context.repo.owner, repo: context.repo.repo, state: "open", per_page: 100 });
+            let added = 0;
+            for (const is of issues) {
+              if (is.pull_request) continue;
+              let ok = false;
+              try {
+                const body = String(is.body || "").replace(/^```(json)?\s*|\s*```$/g, "");
+                const j = JSON.parse(body);
+                const n = clean(j.n, NAME_MAX), d = clean(j.d, DEST_MAX), ly = Number(j.ly);
+                if (n.length >= 2 && d.length >= 2 && Number.isFinite(ly) && ly >= 0 && ly <= LY_MAX && !seen.has(is.number)) {
+                  trips.push({ id: is.number, n, d, ly: Math.round(ly * 10) / 10, t: Date.parse(is.created_at) });   // the server clock, not the page's
+                  seen.add(is.number); added++; ok = true;
+                }
+              } catch (e) {}
+              await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: is.number, state: "closed", state_reason: ok ? "completed" : "not_planned" });
+            }
+            trips.sort((a, b) => a.t - b.t);
+            while (trips.length > MAX) trips.shift();
+            // 3. the leaders: light-years all told, per call-sign
+            const by = new Map();
+            for (const t of trips) {
+              const r = by.get(t.n) || { n: t.n, trips: 0, ly: 0, far: 0, last: 0 };
+              r.trips++; r.ly += t.ly; r.far = Math.max(r.far, t.ly); r.last = Math.max(r.last, t.t); by.set(t.n, r);
+            }
+            const leaders = [...by.values()].sort((a, b) => b.ly - a.ly || b.trips - a.trips).slice(0, 100)
+              .map((r) => ({ n: r.n, trips: r.trips, ly: Math.round(r.ly * 10) / 10, far: r.far, last: r.last }));
+            const out = { updated: new Date().toISOString(), trips, leaders };
+            fs.writeFileSync("board.json", JSON.stringify(out));
+            // 4. the readable one
+            const fmt = (ly) => ly >= 1e6 ? (ly / 1e6).toFixed(1) + "M LY" : ly >= 1e3 ? (ly / 1e3).toFixed(1) + "K LY" : ly + " LY";
+            const when = (t) => new Date(t).toISOString().slice(0, 16).replace("T", " ") + " UTC";
+            let md = "# CE-5 BEACON — TRAVELLERS BOARD\n\nWho went where, from https://pizzy00.github.io/ce5-beacon/ · updated " + when(Date.now()) + "\n\n";
+            md += "## LEADERS — LIGHT-YEARS ALL TOLD\n\n| # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |\n|---|---|---|---|---|---|\n";
+            leaders.slice(0, 50).forEach((r, i) => { md += "| " + (i + 1) + " | " + r.n + " | " + r.trips + " | " + fmt(r.ly) + " | " + fmt(r.far) + " | " + when(r.last) + " |\n"; });
+            md += "\n## THE LAST 100 TRIPS\n\n| WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |\n|---|---|---|---|\n";
+            trips.slice(-100).reverse().forEach((t) => { md += "| " + when(t.t) + " | " + t.n + " | " + t.d + " | " + fmt(t.ly) + " |\n"; });
+            fs.writeFileSync("BOARD.md", md);
+            core.info("trips " + trips.length + " (+" + added + "), leaders " + leaders.length);
+      - name: commit
+        run: |
+          git config user.name "ce5-board"
+          git config user.email "ce5-board@users.noreply.github.com"
+          git add board.json BOARD.md
+          git diff --cached --quiet || git commit -m "board: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

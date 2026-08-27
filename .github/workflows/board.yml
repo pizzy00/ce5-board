@@ -1,6 +1,8 @@
 name: board
-# Every trip the beacon page files arrives as a new issue (body = one JSON object).
-# This turns the open issues into board.json + BOARD.md, commits them, and closes the issues.
+# Every trip the beacon page files arrives as a new issue (title "TRIP · <destination>", body = one JSON object).
+# Step 1 turns up to 100 of the oldest open issues into board.json + BOARD.md (only issues filed by the repo owner's
+# key count; the light-years come from a fixed table, never from the body). Step 2 commits and pushes (rebase + retry).
+# Step 3 closes the issues ONLY after the push succeeded, so a failed run leaves them open for the next run.
 on:
   issues:
     types: [opened]
@@ -18,60 +20,96 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/github-script@v7
         with:
+          ref: main
+      - name: build the board from the open issues
+        uses: actions/github-script@v7
+        with:
+          retries: 3
           script: |
             const fs = require("fs");
-            const MAX = 500, NAME_MAX = 24, DEST_MAX = 40, LY_MAX = 3000000;
-            const clean = (s, n) => String(s || "").replace(/[^\x20-\x7E·’—À-ɏ]/g, "").trim().toUpperCase().slice(0, n);
+            const OWNER = String(context.repo.owner).toLowerCase();
+            const MAX_TRIPS = 500, PER_RUN = 100, PER_NAME_DAY = 20, NAME_MAX = 24;
+            const DEST = { "ZETA RETICULI": 39.3, "PLEIADES · TAYGETA": 444, "SIRIUS": 8.6, "ARCTURUS": 36.7, "VEGA · LYRA": 25,
+              "ORION · RIGEL": 860, "ANDROMEDA": 2537000, "LUNA · FAR SIDE": 0, "DEEP OCEAN": 0, "BERMUDA TRIANGLE": 0, "EARTH": 0 };
+            const clean = (s, n) => String(s || "").normalize("NFC").toUpperCase().replace(/[^A-Z0-9 .'’\-—·À-ɏ]/g, "").replace(/\s+/g, " ").trim().slice(0, n);
+            const day = (t) => new Date(t).toISOString().slice(0, 10);
             // 1. what we have
-            let board = { updated: "", trips: [], leaders: [] };
-            try { board = JSON.parse(fs.readFileSync("board.json", "utf8")); } catch (e) {}
+            let board = { updated: "", trips: [], leaders: [], totals: {} }, had = false;
+            try { board = JSON.parse(fs.readFileSync("board.json", "utf8")); had = true; } catch (e) {}
             const trips = Array.isArray(board.trips) ? board.trips : [];
+            const totals = (board.totals && typeof board.totals === "object") ? board.totals : {};
             const seen = new Set(trips.map((t) => t.id));
-            // 2. every open issue = a trip (or junk)
-            const issues = await github.paginate(github.rest.issues.listForRepo, { owner: context.repo.owner, repo: context.repo.repo, state: "open", per_page: 100 });
-            let added = 0;
+            const perDay = {};
+            for (const t of trips) { const k = t.n + "|" + day(t.t); perDay[k] = (perDay[k] || 0) + 1; }
+            // 2. the oldest open issues, one page; the next trip or the schedule catches up on the rest
+            const { data: issues } = await github.rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo,
+              state: "open", per_page: PER_RUN, sort: "created", direction: "asc" });
+            const closes = []; let added = 0;
             for (const is of issues) {
               if (is.pull_request) continue;
+              const mine = /^TRIP · /.test(is.title || "") && is.user && String(is.user.login).toLowerCase() === OWNER;
               let ok = false;
-              try {
-                const body = String(is.body || "").replace(/^```(json)?\s*|\s*```$/g, "");
-                const j = JSON.parse(body);
-                const n = clean(j.n, NAME_MAX), d = clean(j.d, DEST_MAX), ly = Number(j.ly);
-                if (n.length >= 2 && d.length >= 2 && Number.isFinite(ly) && ly >= 0 && ly <= LY_MAX && !seen.has(is.number)) {
-                  trips.push({ id: is.number, n, d, ly: Math.round(ly * 10) / 10, t: Date.parse(is.created_at) });   // the server clock, not the page's
-                  seen.add(is.number); added++; ok = true;
-                }
-              } catch (e) {}
-              await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: is.number, state: "closed", state_reason: ok ? "completed" : "not_planned" });
+              if (seen.has(is.number)) ok = true;                                   // boarded on an earlier run whose close failed
+              else if (mine) {
+                try {
+                  const j = JSON.parse(String(is.body || "").replace(/^```(json)?\s*|\s*```$/g, ""));
+                  const n = clean(j && j.n, NAME_MAX), d = clean(j && j.d, 40), t = Date.parse(is.created_at);
+                  const k = n + "|" + day(t); perDay[k] = (perDay[k] || 0) + 1;
+                  if (n.length >= 2 && Object.prototype.hasOwnProperty.call(DEST, d) && perDay[k] <= PER_NAME_DAY && Number.isFinite(t)) {
+                    const ly = DEST[d];
+                    trips.push({ id: is.number, n, d, ly, t }); seen.add(is.number); added++; ok = true;
+                    const r = totals[n] || { trips: 0, ly: 0, far: 0, last: 0 };
+                    r.trips++; r.ly = Math.round((r.ly + ly) * 10) / 10; r.far = Math.max(r.far, ly); r.last = Math.max(r.last, t);
+                    totals[n] = r;
+                  }
+                } catch (e) {}
+              }
+              closes.push({ number: is.number, ok });                              // junk (anyone else's, or malformed) closes as not planned
             }
+            fs.writeFileSync("closes.json", JSON.stringify(closes));
+            core.info("open " + issues.length + ", added " + added + ", to close " + closes.length);
+            if (!added && had) return;                                            // nothing new: no file churn, no empty commit
+            // 3. the board: latest trips, and the leaders from the running totals (a flood cannot evict them)
             trips.sort((a, b) => a.t - b.t);
-            while (trips.length > MAX) trips.shift();
-            // 3. the leaders: light-years all told, per call-sign
-            const by = new Map();
-            for (const t of trips) {
-              const r = by.get(t.n) || { n: t.n, trips: 0, ly: 0, far: 0, last: 0 };
-              r.trips++; r.ly += t.ly; r.far = Math.max(r.far, t.ly); r.last = Math.max(r.last, t.t); by.set(t.n, r);
-            }
-            const leaders = [...by.values()].sort((a, b) => b.ly - a.ly || b.trips - a.trips).slice(0, 100)
-              .map((r) => ({ n: r.n, trips: r.trips, ly: Math.round(r.ly * 10) / 10, far: r.far, last: r.last }));
-            const out = { updated: new Date().toISOString(), trips, leaders };
-            fs.writeFileSync("board.json", JSON.stringify(out));
+            while (trips.length > MAX_TRIPS) trips.shift();
+            const leaders = Object.keys(totals).map((n) => ({ n, ...totals[n] }))
+              .sort((a, b) => b.ly - a.ly || b.trips - a.trips || b.last - a.last).slice(0, 100);
+            fs.writeFileSync("board.json", JSON.stringify({ updated: new Date().toISOString(), trips, leaders, totals }));
             // 4. the readable one
+            const cell = (s) => String(s).replace(/[|\\<>\[\]`*_~]/g, "");
             const fmt = (ly) => ly >= 1e6 ? (ly / 1e6).toFixed(1) + "M LY" : ly >= 1e3 ? (ly / 1e3).toFixed(1) + "K LY" : ly + " LY";
             const when = (t) => new Date(t).toISOString().slice(0, 16).replace("T", " ") + " UTC";
             let md = "# CE-5 BEACON — TRAVELLERS BOARD\n\nWho went where, from https://pizzy00.github.io/ce5-beacon/ · updated " + when(Date.now()) + "\n\n";
             md += "## LEADERS — LIGHT-YEARS ALL TOLD\n\n| # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |\n|---|---|---|---|---|---|\n";
-            leaders.slice(0, 50).forEach((r, i) => { md += "| " + (i + 1) + " | " + r.n + " | " + r.trips + " | " + fmt(r.ly) + " | " + fmt(r.far) + " | " + when(r.last) + " |\n"; });
+            leaders.slice(0, 50).forEach((r, i) => { md += "| " + (i + 1) + " | " + cell(r.n) + " | " + r.trips + " | " + fmt(r.ly) + " | " + fmt(r.far) + " | " + when(r.last) + " |\n"; });
             md += "\n## THE LAST 100 TRIPS\n\n| WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |\n|---|---|---|---|\n";
-            trips.slice(-100).reverse().forEach((t) => { md += "| " + when(t.t) + " | " + t.n + " | " + t.d + " | " + fmt(t.ly) + " |\n"; });
+            trips.slice(-100).reverse().forEach((t) => { md += "| " + when(t.t) + " | " + cell(t.n) + " | " + cell(t.d) + " | " + fmt(t.ly) + " |\n"; });
             fs.writeFileSync("BOARD.md", md);
-            core.info("trips " + trips.length + " (+" + added + "), leaders " + leaders.length);
-      - name: commit
+      - name: commit and push
         run: |
           git config user.name "ce5-board"
           git config user.email "ce5-board@users.noreply.github.com"
           git add board.json BOARD.md
-          git diff --cached --quiet || git commit -m "board: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "board: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
+      - name: close the issues that are on the board (or junk), now that the push is in
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          retries: 3
+          script: |
+            const fs = require("fs");
+            let closes = []; try { closes = JSON.parse(fs.readFileSync("closes.json", "utf8")); } catch (e) {}
+            for (const c of closes) {
+              try {
+                await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: c.number,
+                  state: "closed", state_reason: c.ok ? "completed" : "not_planned" });
+              } catch (e) { core.warning("close #" + c.number + ": " + e.message); }
+              await new Promise((r) => setTimeout(r, 250));
+            }

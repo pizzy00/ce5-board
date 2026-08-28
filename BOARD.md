@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 21:15 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 21:18 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -12,6 +12,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 | 4 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
 | 5 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 6 | ELITE DANGEROUS | 3 | 452.6 LY | 444 LY | 2026-08-28 20:36 UTC |
+| 7 | ORION DRIFTER 87 | 1 | 444 LY | 444 LY | 2026-08-28 21:18 UTC |
 
 **SEEN BY 22 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -19,6 +20,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-28 21:18 UTC | ORION DRIFTER 87 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 20:36 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-28 19:38 UTC | ELITE DANGEROUS | SIRIUS | 8.6 LY |
 | 2026-08-28 19:37 UTC | ELITE DANGEROUS | PLEIADES · TAYGETA | 444 LY |

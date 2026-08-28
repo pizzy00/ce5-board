@@ -1,13 +1,13 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 03:16 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 03:20 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
 | # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |
 |---|---|---|---|---|---|
 | 1 | POLARIS SEEKER 33 | 10 | 2.5M LY | 2.5M LY | 2026-08-28 02:45 UTC |
-| 2 | PIZZY PICKUP | 1 | 39.3 LY | 39.3 LY | 2026-08-28 03:16 UTC |
+| 2 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 
 **SEEN BY 7 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -15,6 +15,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-28 03:20 UTC | PIZZY PICKUP | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 03:16 UTC | PIZZY PICKUP | ZETA RETICULI | 39.3 LY |
 | 2026-08-28 02:45 UTC | POLARIS SEEKER 33 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 02:19 UTC | POLARIS SEEKER 33 | THUBAN · DRACO | 303 LY |

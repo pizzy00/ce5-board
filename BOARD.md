@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 06:40 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 06:41 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -9,8 +9,8 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 | 1 | POLARIS SEEKER 33 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 02:45 UTC |
 | 2 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
 | 3 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
-| 4 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
-| 5 | MANTID RELAY 70 | 1 | 39.3 LY | 39.3 LY | 2026-08-28 06:40 UTC |
+| 4 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
+| 5 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 
 **SEEN BY 13 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -18,6 +18,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-28 06:41 UTC | MANTID RELAY 70 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 06:40 UTC | MANTID RELAY 70 | ZETA RETICULI | 39.3 LY |
 | 2026-08-28 05:00 UTC | TALL WHITE SCOUT 54 | ORION · RIGEL | 860 LY |
 | 2026-08-28 04:39 UTC | POLARIS PILOT 64 | ARCTURUS | 36.7 LY |

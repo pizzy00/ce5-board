@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 19:38 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 19:51 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -13,7 +13,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 | 5 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 6 | ELITE DANGEROUS | 2 | 452.6 LY | 444 LY | 2026-08-28 19:38 UTC |
 
-**SEEN BY 17 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 18 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
 ## THE LAST 100 TRIPS
 
@@ -35,6 +35,3 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 | 2026-08-28 02:19 UTC | POLARIS SEEKER 33 | THUBAN · DRACO | 303 LY |
 | 2026-08-28 02:18 UTC | POLARIS SEEKER 33 | PROCYON | 11.5 LY |
 | 2026-08-28 01:52 UTC | POLARIS SEEKER 33 | ANDROMEDA | 2.5M LY |
-
-## IDEAS FROM TRAVELLERS
-

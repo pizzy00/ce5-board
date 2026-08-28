@@ -35,10 +35,11 @@ jobs:
             const clean = (s, n) => String(s || "").normalize("NFC").toUpperCase().replace(/[^A-Z0-9 .'’\-—·À-ɏ]/g, " ").replace(/\s+/g, " ").trim().slice(0, n);
             const day = (t) => new Date(t).toISOString().slice(0, 10);
             // 1. what we have
-            let board = { updated: "", trips: [], leaders: [], totals: {} }, had = false;
+            let board = { updated: "", trips: [], leaders: [], totals: {}, visits: { total: 0, days: {} } }, had = false;
             try { board = JSON.parse(fs.readFileSync("board.json", "utf8")); had = true; } catch (e) {}
             const trips = Array.isArray(board.trips) ? board.trips : [];
             const totals = (board.totals && typeof board.totals === "object") ? board.totals : {};
+            const visits = (board.visits && typeof board.visits === "object" && board.visits.days) ? board.visits : { total: 0, days: {} };
             const seen = new Set(trips.map((t) => t.id));
             const perDay = {};
             for (const t of trips) { const k = t.n + "|" + day(t.t); perDay[k] = (perDay[k] || 0) + 1; }
@@ -48,9 +49,18 @@ jobs:
             const closes = []; let added = 0;
             for (const is of issues) {
               if (is.pull_request) continue;
-              const mine = /^TRIP · /.test(is.title || "") && is.user && String(is.user.login).toLowerCase() === OWNER;
+              const fromOwner = is.user && String(is.user.login).toLowerCase() === OWNER;
+              const mine = /^TRIP · /.test(is.title || "") && fromOwner;
+              const visit = (is.title || "").trim() === "VISIT" && fromOwner;
               let ok = false;
               if (seen.has(is.number)) ok = true;                                   // boarded on an earlier run whose close failed
+              else if (visit) {                                                     // one head-count, nothing else in it is trusted
+                const d = day(is.created_at);
+                if ((visits.days[d] || 0) < 5000) { visits.days[d] = (visits.days[d] || 0) + 1; visits.total++; added++; }
+                const keys = Object.keys(visits.days).sort();                       // keep the last 60 days of detail, the total keeps everything
+                while (keys.length > 60) delete visits.days[keys.shift()];
+                ok = true;
+              }
               else if (mine) {
                 try {
                   const j = JSON.parse(String(is.body || "").replace(/^```(json)?\s*|\s*```$/g, ""));
@@ -75,7 +85,7 @@ jobs:
             while (trips.length > MAX_TRIPS) trips.shift();
             const leaders = Object.keys(totals).map((n) => ({ n, ...totals[n] }))
               .sort((a, b) => b.ly - a.ly || b.trips - a.trips || b.last - a.last).slice(0, 100);
-            fs.writeFileSync("board.json", JSON.stringify({ updated: new Date().toISOString(), trips, leaders, totals }));
+            fs.writeFileSync("board.json", JSON.stringify({ updated: new Date().toISOString(), trips, leaders, totals, visits }));
             // 4. the readable one
             const cell = (s) => String(s).replace(/[|\\<>\[\]`*_~]/g, "");
             const fmt = (ly) => ly >= 1e6 ? (ly / 1e6).toFixed(1) + "M LY" : ly >= 1e3 ? (ly / 1e3).toFixed(1) + "K LY" : ly + " LY";
@@ -83,6 +93,7 @@ jobs:
             let md = "# CE-5 BEACON — TRAVELLERS BOARD\n\nWho went where, from https://pizzy00.github.io/ce5-beacon/ · updated " + when(Date.now()) + "\n\n";
             md += "## LEADERS — LIGHT-YEARS ALL TOLD\n\n| # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |\n|---|---|---|---|---|---|\n";
             leaders.slice(0, 50).forEach((r, i) => { md += "| " + (i + 1) + " | " + cell(r.n) + " | " + r.trips + " | " + fmt(r.ly) + " | " + fmt(r.far) + " | " + when(r.last) + " |\n"; });
+            md += "\n**SEEN BY " + visits.total + " DEVICE-DAYS ALL TOLD** (one count per device per day)\n";
             md += "\n## THE LAST 100 TRIPS\n\n| WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |\n|---|---|---|---|\n";
             trips.slice(-100).reverse().forEach((t) => { md += "| " + when(t.t) + " | " + cell(t.n) + " | " + cell(t.d) + " | " + fmt(t.ly) + " |\n"; });
             fs.writeFileSync("BOARD.md", md);

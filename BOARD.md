@@ -38,5 +38,3 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 
 ## IDEAS FROM TRAVELLERS
 
-- **POLARIS PILOT 64**: LOVE IT
-- **POLARIS PILOT 64**: TEST SUBMIT

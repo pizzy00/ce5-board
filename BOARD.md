@@ -10,7 +10,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 | 2 | POLARIS PILOT 64 | 3 | 2.5M LY | 2.5M LY | 2026-08-28 04:22 UTC |
 | 3 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 
-**SEEN BY 9 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 10 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
 ## THE LAST 100 TRIPS
 

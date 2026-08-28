@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 05:22 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 06:36 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -11,7 +11,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 | 3 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
 | 4 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 
-**SEEN BY 12 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 13 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
 ## THE LAST 100 TRIPS
 

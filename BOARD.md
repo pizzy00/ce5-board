@@ -1,12 +1,12 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 21:20 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 21:23 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
 | # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |
 |---|---|---|---|---|---|
-| 1 | POLARIS SEEKER 33 | 6 | 2.5M LY | 2.5M LY | 2026-08-28 21:20 UTC |
+| 1 | POLARIS SEEKER 33 | 7 | 2.5M LY | 2.5M LY | 2026-08-28 21:23 UTC |
 | 2 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
 | 3 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
 | 4 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
@@ -20,6 +20,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-28 21:23 UTC | POLARIS SEEKER 33 | SIRIUS | 8.6 LY |
 | 2026-08-28 21:20 UTC | POLARIS SEEKER 33 | SIRIUS | 8.6 LY |
 | 2026-08-28 21:18 UTC | ORION DRIFTER 87 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 20:36 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |

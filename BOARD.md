@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 03:02 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28 03:10 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -8,7 +8,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-28
 |---|---|---|---|---|---|
 | 1 | POLARIS SEEKER 33 | 10 | 2.5M LY | 2.5M LY | 2026-08-28 02:45 UTC |
 
-**SEEN BY 6 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 7 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
 ## THE LAST 100 TRIPS
 

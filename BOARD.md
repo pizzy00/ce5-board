@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 14:11 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 14:12 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -13,7 +13,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29
 | 5 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
 | 6 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 7 | ELITE DANGEROUS | 3 | 452.6 LY | 444 LY | 2026-08-28 20:36 UTC |
-| 8 | ARCTURIAN LANTERN 78 | 3 | 0 LY | 0 LY | 2026-08-29 14:11 UTC |
+| 8 | ARCTURIAN LANTERN 78 | 4 | 39.3 LY | 39.3 LY | 2026-08-29 14:12 UTC |
 
 **SEEN BY 34 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -21,6 +21,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-29 14:12 UTC | ARCTURIAN LANTERN 78 | ZETA RETICULI | 39.3 LY |
 | 2026-08-29 14:11 UTC | ARCTURIAN LANTERN 78 | LUNA · FAR SIDE | 0 LY |
 | 2026-08-29 14:10 UTC | ARCTURIAN LANTERN 78 | DEEP OCEAN | 0 LY |
 | 2026-08-29 14:08 UTC | ARCTURIAN LANTERN 78 | BERMUDA TRIANGLE | 0 LY |

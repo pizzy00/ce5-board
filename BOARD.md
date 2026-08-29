@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 15:10 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 15:18 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -49,3 +49,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29
 | 2026-08-28 02:19 UTC | POLARIS SEEKER 33 | THUBAN · DRACO | 303 LY |
 | 2026-08-28 02:18 UTC | POLARIS SEEKER 33 | PROCYON | 11.5 LY |
 | 2026-08-28 01:52 UTC | POLARIS SEEKER 33 | ANDROMEDA | 2.5M LY |
+
+## IDEAS FROM TRAVELLERS
+
+- **LYRAN SIGNAL 37**: 40 ERIDANI A STAR SYSTEM ALSO ALPHA CETAURI B

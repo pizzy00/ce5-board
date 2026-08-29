@@ -31,7 +31,8 @@ jobs:
             const OWNER = String(context.repo.owner).toLowerCase();
             const MAX_TRIPS = 500, PER_RUN = 100, PER_NAME_DAY = 20, NAME_MAX = 24;
             const DEST = { "ZETA RETICULI": 39.3, "PLEIADES · TAYGETA": 444, "SIRIUS": 8.6, "ARCTURUS": 36.7, "VEGA · LYRA": 25,
-              "ORION · RIGEL": 860, "ANDROMEDA": 2537000, "PROCYON": 11.5, "THUBAN · DRACO": 303, "LUNA · FAR SIDE": 0, "DEEP OCEAN": 0, "BERMUDA TRIANGLE": 0, "EARTH": 0 };
+              "ORION · RIGEL": 860, "ANDROMEDA": 2537000, "PROCYON": 11.5, "THUBAN · DRACO": 303, "LUNA · FAR SIDE": 0, "DEEP OCEAN": 0, "BERMUDA TRIANGLE": 0, "EARTH": 0,
+              "40 ERIDANI A": 16.3, "ALPHA CENTAURI B": 4.37 };
             const clean = (s, n) => String(s || "").normalize("NFC").toUpperCase().replace(/[^A-Z0-9 .'’\-—·À-ɏ]/g, " ").replace(/\s+/g, " ").trim().slice(0, n);
             const day = (t) => new Date(t).toISOString().slice(0, 10);
             // 1. what we have
@@ -68,10 +69,12 @@ jobs:
                   const j = JSON.parse(String(is.body || "").replace(/^```(json)?\s*|\s*```$/g, ""));
                   const n = clean(j && j.n, NAME_MAX), txt = clean(j && j.txt, 240);
                   if (txt.length >= 3 && !ideas.some((x) => x.id === is.number)) {
-                    ideas.push({ id: is.number, n, txt, t: Date.parse(is.created_at) });
+                    ideas.push({ id: is.number, n, txt, t: Date.parse(is.created_at), r: [] });
                     while (ideas.length > 100) ideas.shift();
                     added++;
                   }
+                  try { await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo,
+                    issue_number: is.number, labels: ["idea"] }); } catch (e) {}   // so the builder can find it and answer
                   ok = true;
                 } catch (e) {}
               }
@@ -90,6 +93,24 @@ jobs:
                 } catch (e) {}
               }
               closes.push({ number: is.number, ok });                              // junk (anyone else's, or malformed) closes as not planned
+            }
+            // 2b. answers: any comment the OWNER wrote on an idea issue is a public reply.
+            //     GitHub authenticates the author, so the page's own key cannot forge one.
+            for (const idea of ideas.slice(-40)) {
+              try {
+                const { data: cs } = await github.rest.issues.listComments({ owner: context.repo.owner,
+                  repo: context.repo.repo, issue_number: idea.id, per_page: 20 });
+                const was = JSON.stringify(idea.r || []);
+                const rs = [];
+                for (const c of cs) {
+                  if (!c.user || String(c.user.login).toLowerCase() !== OWNER) continue;
+                  const txt = clean(String(c.body || "").replace(/\r?\n+/g, " "), 400);
+                  if (txt.length < 2) continue;
+                  rs.push({ by: "THE BUILDER", txt, t: Date.parse(c.created_at) });
+                }
+                idea.r = rs.slice(-5);
+                if (JSON.stringify(idea.r) !== was) added++;                       // a new answer is worth a commit
+              } catch (e) {}
             }
             fs.writeFileSync("closes.json", JSON.stringify(closes));
             core.info("open " + issues.length + ", added " + added + ", to close " + closes.length);
@@ -112,7 +133,10 @@ jobs:
             trips.slice(-100).reverse().forEach((t) => { md += "| " + when(t.t) + " | " + cell(t.n) + " | " + cell(t.d) + " | " + fmt(t.ly) + " |\n"; });
             if (ideas.length) {
               md += "\n## IDEAS FROM TRAVELLERS\n\n";
-              ideas.slice(-50).reverse().forEach((x) => { md += "- **" + cell(x.n || "SOMEONE") + "**: " + cell(x.txt) + "\n"; });
+              ideas.slice(-50).reverse().forEach((x) => {
+                md += "- **" + cell(x.n || "SOMEONE") + "**: " + cell(x.txt) + "\n";
+                for (const r of (Array.isArray(x.r) ? x.r : [])) md += "  - _" + cell(r.by) + "_: " + cell(r.txt) + "\n";
+              });
             }
             fs.writeFileSync("BOARD.md", md);
       - name: commit and push

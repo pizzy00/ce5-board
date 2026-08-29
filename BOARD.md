@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 15:24 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 15:26 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -54,5 +54,6 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29
 
 ## IDEAS FROM TRAVELLERS
 
+- **LYRAN SIGNAL 37**: GREETINGS FROM TERRA CONTACT WITH INTENT TO LEAR WOULD BE APPRECIATED. THANK YOU
 - **LYRAN SIGNAL 37**: HELLO FROM TERRA. A PEACEFUL VISIT WOULD BE APPRECIATED INTENT TO LEARN.
 - **LYRAN SIGNAL 37**: 40 ERIDANI A STAR SYSTEM ALSO ALPHA CETAURI B

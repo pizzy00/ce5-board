@@ -14,7 +14,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29
 | 6 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 7 | ELITE DANGEROUS | 3 | 452.6 LY | 444 LY | 2026-08-28 20:36 UTC |
 
-**SEEN BY 29 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 30 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
 ## THE LAST 100 TRIPS
 

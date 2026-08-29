@@ -1,12 +1,12 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 02:53 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29 06:54 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
 | # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |
 |---|---|---|---|---|---|
-| 1 | POLARIS SEEKER 33 | 8 | 2.5M LY | 2.5M LY | 2026-08-29 02:53 UTC |
+| 1 | POLARIS SEEKER 33 | 9 | 5.1M LY | 2.5M LY | 2026-08-29 06:54 UTC |
 | 2 | ORION DRIFTER 87 | 2 | 2.5M LY | 2.5M LY | 2026-08-28 21:27 UTC |
 | 3 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
 | 4 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
@@ -20,6 +20,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-29
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-29 06:54 UTC | POLARIS SEEKER 33 | ANDROMEDA | 2.5M LY |
 | 2026-08-29 02:53 UTC | POLARIS SEEKER 33 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 21:27 UTC | ORION DRIFTER 87 | ANDROMEDA | 2.5M LY |
 | 2026-08-28 21:23 UTC | POLARIS SEEKER 33 | SIRIUS | 8.6 LY |

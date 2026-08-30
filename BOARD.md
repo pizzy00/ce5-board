@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 00:59 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 01:05 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -9,11 +9,11 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 | 1 | POLARIS SEEKER 33 | 9 | 5.1M LY | 2.5M LY | 2026-08-29 06:54 UTC |
 | 2 | ORION DRIFTER 87 | 2 | 2.5M LY | 2.5M LY | 2026-08-28 21:27 UTC |
 | 3 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
-| 4 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
-| 5 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
-| 6 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
-| 7 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
-| 8 | ELITE DANGEROUS | 3 | 452.6 LY | 444 LY | 2026-08-28 20:36 UTC |
+| 4 | ELITE DANGEROUS | 4 | 896.6 LY | 444 LY | 2026-08-30 01:05 UTC |
+| 5 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
+| 6 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
+| 7 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
+| 8 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 9 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 
 **SEEN BY 40 DEVICE-DAYS ALL TOLD** (one count per device per day)
@@ -22,6 +22,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-30 01:05 UTC | ELITE DANGEROUS | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-29 15:28 UTC | LYRAN SIGNAL 37 | PROCYON | 11.5 LY |
 | 2026-08-29 15:21 UTC | LYRAN SIGNAL 37 | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-29 14:12 UTC | ARCTURIAN LANTERN 78 | PLEIADES · TAYGETA | 444 LY |

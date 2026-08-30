@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 01:50 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 01:51 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -9,7 +9,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 | 1 | POLARIS SEEKER 33 | 9 | 5.1M LY | 2.5M LY | 2026-08-29 06:54 UTC |
 | 2 | ORION DRIFTER 87 | 2 | 2.5M LY | 2.5M LY | 2026-08-28 21:27 UTC |
 | 3 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
-| 4 | MANTID DRIFTER 49 | 2 | 2.5M LY | 2.5M LY | 2026-08-30 01:50 UTC |
+| 4 | MANTID DRIFTER 49 | 3 | 2.5M LY | 2.5M LY | 2026-08-30 01:51 UTC |
 | 5 | ELITE DANGEROUS | 4 | 896.6 LY | 444 LY | 2026-08-30 01:05 UTC |
 | 6 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
 | 7 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
@@ -23,6 +23,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-30 01:51 UTC | MANTID DRIFTER 49 | 40 ERIDANI A | 16.3 LY |
 | 2026-08-30 01:50 UTC | MANTID DRIFTER 49 | ANDROMEDA | 2.5M LY |
 | 2026-08-30 01:47 UTC | MANTID DRIFTER 49 | ARCTURUS | 36.7 LY |
 | 2026-08-30 01:05 UTC | ELITE DANGEROUS | PLEIADES · TAYGETA | 444 LY |

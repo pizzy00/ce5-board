@@ -1,12 +1,12 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 17:07 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 17:15 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
 | # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |
 |---|---|---|---|---|---|
-| 1 | POLARIS SEEKER 33 | 9 | 5.1M LY | 2.5M LY | 2026-08-29 06:54 UTC |
+| 1 | POLARIS SEEKER 33 | 10 | 5.1M LY | 2.5M LY | 2026-08-30 17:15 UTC |
 | 2 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
 | 3 | ORION DRIFTER 87 | 2 | 2.5M LY | 2.5M LY | 2026-08-28 21:27 UTC |
 | 4 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
@@ -24,6 +24,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-30 17:15 UTC | POLARIS SEEKER 33 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-30 06:46 UTC | TALL WHITE STARGAZER 84 | ANDROMEDA | 2.5M LY |
 | 2026-08-30 02:01 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-30 01:57 UTC | MANTID DRIFTER 49 | ORION · RIGEL | 860 LY |

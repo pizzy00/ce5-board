@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 01:45 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 01:47 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -14,7 +14,8 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 | 6 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
 | 7 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
 | 8 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
-| 9 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
+| 9 | MANTID DRIFTER 49 | 1 | 36.7 LY | 36.7 LY | 2026-08-30 01:47 UTC |
+| 10 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 
 **SEEN BY 41 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -22,6 +23,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-30 01:47 UTC | MANTID DRIFTER 49 | ARCTURUS | 36.7 LY |
 | 2026-08-30 01:05 UTC | ELITE DANGEROUS | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-29 15:28 UTC | LYRAN SIGNAL 37 | PROCYON | 11.5 LY |
 | 2026-08-29 15:21 UTC | LYRAN SIGNAL 37 | BERMUDA TRIANGLE | 0 LY |

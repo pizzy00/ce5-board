@@ -33,14 +33,16 @@ jobs:
             const DEST = { "ZETA RETICULI": 39.3, "PLEIADES · TAYGETA": 444, "SIRIUS": 8.6, "ARCTURUS": 36.7, "VEGA · LYRA": 25,
               "ORION · RIGEL": 860, "ANDROMEDA": 2537000, "PROCYON": 11.5, "THUBAN · DRACO": 303, "LUNA · FAR SIDE": 0, "DEEP OCEAN": 0, "BERMUDA TRIANGLE": 0, "EARTH": 0,
               "40 ERIDANI A": 16.3, "ALPHA CENTAURI B": 4.37 };
+            const LANGS = ["en", "es", "zh", "hi", "ar", "pt", "fr", "ru", "de", "ja"];   // the ten the console speaks: anything else is not counted
             const clean = (s, n) => String(s || "").normalize("NFC").toUpperCase().replace(/[^A-Z0-9 .'’\-—·À-ɏ]/g, " ").replace(/\s+/g, " ").trim().slice(0, n);
             const day = (t) => new Date(t).toISOString().slice(0, 10);
             // 1. what we have
-            let board = { updated: "", trips: [], leaders: [], totals: {}, visits: { total: 0, days: {} }, ideas: [] }, had = false;
+            let board = { updated: "", trips: [], leaders: [], totals: {}, visits: { total: 0, days: {}, langs: {} }, ideas: [] }, had = false;
             try { board = JSON.parse(fs.readFileSync("board.json", "utf8")); had = true; } catch (e) {}
             const trips = Array.isArray(board.trips) ? board.trips : [];
             const totals = (board.totals && typeof board.totals === "object") ? board.totals : {};
-            const visits = (board.visits && typeof board.visits === "object" && board.visits.days) ? board.visits : { total: 0, days: {} };
+            const visits = (board.visits && typeof board.visits === "object" && board.visits.days) ? board.visits : { total: 0, days: {}, langs: {} };
+            if (!visits.langs || typeof visits.langs !== "object") visits.langs = {};   // boards written before this existed
             const ideas = Array.isArray(board.ideas) ? board.ideas : [];
             const seen = new Set(trips.map((t) => t.id));
             const perDay = {};
@@ -57,9 +59,14 @@ jobs:
               const idea = (is.title || "").trim() === "IDEA" && fromOwner;
               let ok = false;
               if (seen.has(is.number)) ok = true;                                   // boarded on an earlier run whose close failed
-              else if (visit) {                                                     // one head-count, nothing else in it is trusted
+              else if (visit) {                                                     // one head-count, and the language it was read in
                 const d = day(is.created_at);
-                if ((visits.days[d] || 0) < 5000) { visits.days[d] = (visits.days[d] || 0) + 1; visits.total++; added++; }
+                if ((visits.days[d] || 0) < 5000) {
+                  visits.days[d] = (visits.days[d] || 0) + 1; visits.total++; added++;
+                  let l = "";                                                       // the ONLY field trusted out of a visit body
+                  try { l = String((JSON.parse(String(is.body || "").replace(/^```(json)?\s*|\s*```$/g, "")) || {}).l || "").toLowerCase(); } catch (e) {}
+                  if (LANGS.indexOf(l) >= 0) visits.langs[l] = (visits.langs[l] || 0) + 1;   // a forgery can only land in one of ten known buckets
+                }
                 const keys = Object.keys(visits.days).sort();                       // keep the last 60 days of detail, the total keeps everything
                 while (keys.length > 60) delete visits.days[keys.shift()];
                 ok = true;
@@ -129,6 +136,8 @@ jobs:
             md += "## LEADERS — LIGHT-YEARS ALL TOLD\n\n| # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |\n|---|---|---|---|---|---|\n";
             leaders.slice(0, 50).forEach((r, i) => { md += "| " + (i + 1) + " | " + cell(r.n) + " | " + r.trips + " | " + fmt(r.ly) + " | " + fmt(r.far) + " | " + when(r.last) + " |\n"; });
             md += "\n**SEEN BY " + visits.total + " DEVICE-DAYS ALL TOLD** (one count per device per day)\n";
+            const lgk = Object.keys(visits.langs || {}).filter((k) => visits.langs[k] > 0).sort((a, b) => visits.langs[b] - visits.langs[a]);
+            if (lgk.length) md += "\n**CONSOLES BY LANGUAGE** \u00b7 " + lgk.map((k) => k.toUpperCase() + " " + visits.langs[k]).join(" \u00b7 ") + "\n";
             md += "\n## THE LAST 100 TRIPS\n\n| WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |\n|---|---|---|---|\n";
             trips.slice(-100).reverse().forEach((t) => { md += "| " + when(t.t) + " | " + cell(t.n) + " | " + cell(t.d) + " | " + fmt(t.ly) + " |\n"; });
             if (ideas.length) {

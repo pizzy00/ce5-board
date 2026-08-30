@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 01:57 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30 02:02 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -10,7 +10,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 | 2 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
 | 3 | ORION DRIFTER 87 | 2 | 2.5M LY | 2.5M LY | 2026-08-28 21:27 UTC |
 | 4 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
-| 5 | ELITE DANGEROUS | 4 | 896.6 LY | 444 LY | 2026-08-30 01:05 UTC |
+| 5 | ELITE DANGEROUS | 5 | 896.6 LY | 444 LY | 2026-08-30 02:01 UTC |
 | 6 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
 | 7 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
 | 8 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
@@ -23,6 +23,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-30
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-30 02:01 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-30 01:57 UTC | MANTID DRIFTER 49 | ORION · RIGEL | 860 LY |
 | 2026-08-30 01:55 UTC | MANTID DRIFTER 49 | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-30 01:52 UTC | MANTID DRIFTER 49 | PLEIADES · TAYGETA | 444 LY |

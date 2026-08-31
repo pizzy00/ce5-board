@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 22:29 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 22:30 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -20,7 +20,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 | 12 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 13 | VEGAN COURIER 82 | 1 | 444 LY | 444 LY | 2026-08-31 20:08 UTC |
 | 14 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
-| 15 | TRIANGLE SIGNAL 60 | 1 | 16.3 LY | 16.3 LY | 2026-08-31 22:29 UTC |
+| 15 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
 | 16 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 | 17 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
 
@@ -32,6 +32,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-31 22:30 UTC | TRIANGLE SIGNAL 60 | 40 ERIDANI A | 16.3 LY |
 | 2026-08-31 22:29 UTC | TRIANGLE SIGNAL 60 | 40 ERIDANI A | 16.3 LY |
 | 2026-08-31 21:33 UTC | ORION ORBITER 41 | ORION · RIGEL | 860 LY |
 | 2026-08-31 21:13 UTC | ANDROMEDAN LISTENER 81 | SIRIUS | 8.6 LY |

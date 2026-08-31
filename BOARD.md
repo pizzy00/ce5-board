@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 21:12 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 21:13 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -20,6 +20,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 | 12 | VEGAN COURIER 82 | 1 | 444 LY | 444 LY | 2026-08-31 20:08 UTC |
 | 13 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
 | 14 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
+| 15 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
 
 **SEEN BY 119 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -29,6 +30,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-31 21:13 UTC | ANDROMEDAN LISTENER 81 | SIRIUS | 8.6 LY |
 | 2026-08-31 20:08 UTC | VEGAN COURIER 82 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-31 06:41 UTC | ELITE DANGEROUS | ARCTURUS | 36.7 LY |
 | 2026-08-31 05:46 UTC | SOLO TRAVELER | ANDROMEDA | 2.5M LY |

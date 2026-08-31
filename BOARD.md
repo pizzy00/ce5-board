@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 00:13 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 00:16 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -16,7 +16,8 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 | 8 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
 | 9 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
 | 10 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
-| 11 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
+| 11 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
+| 12 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 
 **SEEN BY 77 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -26,6 +27,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-31 00:16 UTC | GREY RELAY 43 | ARCTURUS | 36.7 LY |
 | 2026-08-30 17:15 UTC | POLARIS SEEKER 33 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-30 06:46 UTC | TALL WHITE STARGAZER 84 | ANDROMEDA | 2.5M LY |
 | 2026-08-30 02:01 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |

@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 21:34 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 21:46 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -23,7 +23,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 | 15 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 | 16 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
 
-**SEEN BY 120 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 121 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
 **CONSOLES BY LANGUAGE** · EN 26 · FR 6 · PT 5 · ZH 5 · RU 1 · DE 1
 

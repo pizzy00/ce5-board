@@ -21,9 +21,9 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 | 13 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
 | 14 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 
-**SEEN BY 111 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 115 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
-**CONSOLES BY LANGUAGE** · EN 22 · FR 6 · PT 5 · RU 1 · DE 1
+**CONSOLES BY LANGUAGE** · EN 22 · FR 6 · PT 5 · ZH 4 · RU 1 · DE 1
 
 ## THE LAST 100 TRIPS
 

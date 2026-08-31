@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 02:45 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31 02:47 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -17,7 +17,8 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 | 9 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
 | 10 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 11 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
-| 12 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
+| 12 | SOLO TRAVELER | 1 | 25 LY | 25 LY | 2026-08-31 02:46 UTC |
+| 13 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 
 **SEEN BY 79 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -27,6 +28,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-08-31
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-08-31 02:46 UTC | SOLO TRAVELER | VEGA · LYRA | 25 LY |
 | 2026-08-31 02:45 UTC | POLARIS SEEKER 33 | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-31 00:16 UTC | GREY RELAY 43 | ARCTURUS | 36.7 LY |
 | 2026-08-30 17:15 UTC | POLARIS SEEKER 33 | PLEIADES · TAYGETA | 444 LY |

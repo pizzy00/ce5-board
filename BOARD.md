@@ -25,9 +25,9 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 | 17 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 | 18 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
 
-**SEEN BY 142 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 143 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
-**CONSOLES BY LANGUAGE** · EN 47 · FR 6 · PT 5 · ZH 5 · RU 1 · DE 1
+**CONSOLES BY LANGUAGE** · EN 48 · FR 6 · PT 5 · ZH 5 · RU 1 · DE 1
 
 ## THE LAST 100 TRIPS
 

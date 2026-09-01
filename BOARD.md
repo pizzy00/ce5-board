@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 15:10 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 15:57 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -29,9 +29,9 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 | 21 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
 | 22 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
-**SEEN BY 163 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 164 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
-**CONSOLES BY LANGUAGE** · EN 64 · FR 8 · PT 6 · ZH 5 · RU 1 · DE 1 · ES 1
+**CONSOLES BY LANGUAGE** · EN 65 · FR 8 · PT 6 · ZH 5 · RU 1 · DE 1 · ES 1
 
 ## THE LAST 100 TRIPS
 

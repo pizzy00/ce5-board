@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 04:47 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 04:53 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -19,11 +19,12 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 | 11 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
 | 12 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
 | 13 | VEGAN COURIER 82 | 1 | 444 LY | 444 LY | 2026-08-31 20:08 UTC |
-| 14 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
-| 15 | POLARIS NAVIGATOR 55 | 2 | 33.6 LY | 25 LY | 2026-08-31 23:15 UTC |
-| 16 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
-| 17 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
-| 18 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
+| 14 | ORION BEACON 16 | 1 | 39.3 LY | 39.3 LY | 2026-09-01 04:53 UTC |
+| 15 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
+| 16 | POLARIS NAVIGATOR 55 | 2 | 33.6 LY | 25 LY | 2026-08-31 23:15 UTC |
+| 17 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
+| 18 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
+| 19 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
 
 **SEEN BY 149 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -33,6 +34,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-01 04:53 UTC | ORION BEACON 16 | ZETA RETICULI | 39.3 LY |
 | 2026-09-01 01:45 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-31 23:15 UTC | POLARIS NAVIGATOR 55 | VEGA · LYRA | 25 LY |
 | 2026-08-31 23:15 UTC | POLARIS NAVIGATOR 55 | SIRIUS | 8.6 LY |

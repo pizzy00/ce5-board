@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 12:56 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 13:02 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -26,6 +26,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 | 18 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
 | 19 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 | 20 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
+| 21 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
 **SEEN BY 159 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -35,6 +36,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-01 13:02 UTC | NORDIC GHOST 32 | DEEP OCEAN | 0 LY |
 | 2026-09-01 07:02 UTC | VEGAN DRIFTER 37 | ARCTURUS | 36.7 LY |
 | 2026-09-01 07:00 UTC | VEGAN DRIFTER 37 | PLEIADES · TAYGETA | 444 LY |
 | 2026-09-01 04:53 UTC | ORION BEACON 16 | ZETA RETICULI | 39.3 LY |

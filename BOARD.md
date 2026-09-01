@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 01:34 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 01:45 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -12,7 +12,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 | 4 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
 | 5 | SOLO TRAVELER | 2 | 2.5M LY | 2.5M LY | 2026-08-31 05:46 UTC |
 | 6 | TALL WHITE STARGAZER 84 | 1 | 2.5M LY | 2.5M LY | 2026-08-30 06:46 UTC |
-| 7 | ELITE DANGEROUS | 6 | 933.3 LY | 444 LY | 2026-08-31 06:41 UTC |
+| 7 | ELITE DANGEROUS | 7 | 933.3 LY | 444 LY | 2026-09-01 01:45 UTC |
 | 8 | ORION ORBITER 41 | 1 | 860 LY | 860 LY | 2026-08-31 21:33 UTC |
 | 9 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
 | 10 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
@@ -33,6 +33,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-01 01:45 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-31 23:15 UTC | POLARIS NAVIGATOR 55 | VEGA · LYRA | 25 LY |
 | 2026-08-31 23:15 UTC | POLARIS NAVIGATOR 55 | SIRIUS | 8.6 LY |
 | 2026-08-31 22:30 UTC | TRIANGLE SIGNAL 60 | 40 ERIDANI A | 16.3 LY |

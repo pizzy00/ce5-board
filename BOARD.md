@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 07:00 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 07:02 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -18,7 +18,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 | 10 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
 | 11 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
 | 12 | PIZZY PICKUP | 2 | 483.3 LY | 444 LY | 2026-08-28 03:20 UTC |
-| 13 | VEGAN DRIFTER 37 | 1 | 444 LY | 444 LY | 2026-09-01 07:00 UTC |
+| 13 | VEGAN DRIFTER 37 | 2 | 480.7 LY | 444 LY | 2026-09-01 07:02 UTC |
 | 14 | VEGAN COURIER 82 | 1 | 444 LY | 444 LY | 2026-08-31 20:08 UTC |
 | 15 | ORION BEACON 16 | 1 | 39.3 LY | 39.3 LY | 2026-09-01 04:53 UTC |
 | 16 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
@@ -35,6 +35,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-01 07:02 UTC | VEGAN DRIFTER 37 | ARCTURUS | 36.7 LY |
 | 2026-09-01 07:00 UTC | VEGAN DRIFTER 37 | PLEIADES · TAYGETA | 444 LY |
 | 2026-09-01 04:53 UTC | ORION BEACON 16 | ZETA RETICULI | 39.3 LY |
 | 2026-09-01 01:45 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |

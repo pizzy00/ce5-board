@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 18:21 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01 18:59 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -27,8 +27,9 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 | 19 | POLARIS NAVIGATOR 55 | 2 | 33.6 LY | 25 LY | 2026-08-31 23:15 UTC |
 | 20 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
 | 21 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
-| 22 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
-| 23 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
+| 22 | LUNAR ENVOY 32 | 1 | 8.6 LY | 8.6 LY | 2026-09-01 18:58 UTC |
+| 23 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
+| 24 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
 **SEEN BY 171 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -38,6 +39,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-01
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-01 18:58 UTC | LUNAR ENVOY 32 | SIRIUS | 8.6 LY |
 | 2026-09-01 15:59 UTC | ORION COURIER 39 | PLEIADES · TAYGETA | 444 LY |
 | 2026-09-01 15:10 UTC | ARCTURIAN ENVOY 55 | PLEIADES · TAYGETA | 444 LY |
 | 2026-09-01 15:07 UTC | ARCTURIAN ENVOY 55 | ALPHA CENTAURI B | 4.37 LY |

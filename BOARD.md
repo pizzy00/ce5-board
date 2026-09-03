@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 04:09 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 04:12 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -33,8 +33,9 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 | 25 | MARTIAN ENVOY 37 | 1 | 8.6 LY | 8.6 LY | 2026-09-02 02:04 UTC |
 | 26 | LUNAR ENVOY 32 | 1 | 8.6 LY | 8.6 LY | 2026-09-01 18:58 UTC |
 | 27 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
-| 28 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
-| 29 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
+| 28 | MARTIAN SEEKER 38 | 1 | 0 LY | 0 LY | 2026-09-03 04:12 UTC |
+| 29 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
+| 30 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
 **SEEN BY 240 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -44,6 +45,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-03 04:12 UTC | MARTIAN SEEKER 38 | LUNA · FAR SIDE | 0 LY |
 | 2026-09-03 03:48 UTC | ELITE DANGEROUS | ANDROMEDA | 2.5M LY |
 | 2026-09-03 02:38 UTC | ANDROMEDAN PROBE 11 | SIRIUS | 8.6 LY |
 | 2026-09-03 02:24 UTC | SOLO TRAVELER | ANDROMEDA | 2.5M LY |

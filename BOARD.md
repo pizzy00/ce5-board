@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 04:49 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 04:51 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -10,7 +10,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 | 2 | SOLO TRAVELER | 3 | 5.1M LY | 2.5M LY | 2026-09-03 02:24 UTC |
 | 3 | SOLAR STARGAZER 12 | 2 | 5.1M LY | 2.5M LY | 2026-09-02 12:44 UTC |
 | 4 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
-| 5 | ELITE DANGEROUS | 8 | 2.5M LY | 2.5M LY | 2026-09-03 03:48 UTC |
+| 5 | ELITE DANGEROUS | 9 | 2.5M LY | 2.5M LY | 2026-09-03 04:50 UTC |
 | 6 | VEGAN DRIFTER 37 | 3 | 2.5M LY | 2.5M LY | 2026-09-02 00:09 UTC |
 | 7 | ORION DRIFTER 87 | 2 | 2.5M LY | 2.5M LY | 2026-08-28 21:27 UTC |
 | 8 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
@@ -45,6 +45,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-03 04:50 UTC | ELITE DANGEROUS | ARCTURUS | 36.7 LY |
 | 2026-09-03 04:12 UTC | MARTIAN SEEKER 38 | LUNA · FAR SIDE | 0 LY |
 | 2026-09-03 03:48 UTC | ELITE DANGEROUS | ANDROMEDA | 2.5M LY |
 | 2026-09-03 02:38 UTC | ANDROMEDAN PROBE 11 | SIRIUS | 8.6 LY |

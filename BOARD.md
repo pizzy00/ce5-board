@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 10:44 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 10:45 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -28,7 +28,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 | 20 | ORION COURIER 39 | 1 | 444 LY | 444 LY | 2026-09-01 15:59 UTC |
 | 21 | VEGAN COURIER 82 | 1 | 444 LY | 444 LY | 2026-08-31 20:08 UTC |
 | 22 | ORION BEACON 16 | 1 | 39.3 LY | 39.3 LY | 2026-09-01 04:53 UTC |
-| 23 | NORDIC SEEKER 71 | 1 | 36.7 LY | 36.7 LY | 2026-09-03 10:44 UTC |
+| 23 | NORDIC SEEKER 71 | 2 | 36.7 LY | 36.7 LY | 2026-09-03 10:45 UTC |
 | 24 | GREY RELAY 43 | 1 | 36.7 LY | 36.7 LY | 2026-08-31 00:16 UTC |
 | 25 | POLARIS NAVIGATOR 55 | 2 | 33.6 LY | 25 LY | 2026-08-31 23:15 UTC |
 | 26 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
@@ -51,6 +51,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-03 10:45 UTC | NORDIC SEEKER 71 | LUNA · FAR SIDE | 0 LY |
 | 2026-09-03 10:44 UTC | NORDIC SEEKER 71 | ARCTURUS | 36.7 LY |
 | 2026-09-03 08:47 UTC | PLEIADIAN WANDERER 77 | ANDROMEDA | 2.5M LY |
 | 2026-09-03 07:58 UTC | LUNAR CARRIER 46 | VEGA · LYRA | 25 LY |

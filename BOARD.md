@@ -1,13 +1,13 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 05:59 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 06:02 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
 | # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |
 |---|---|---|---|---|---|
-| 1 | POLARIS SEEKER 33 | 11 | 5.1M LY | 2.5M LY | 2026-08-31 02:45 UTC |
-| 2 | SOLO TRAVELER | 4 | 5.1M LY | 2.5M LY | 2026-09-03 05:59 UTC |
+| 1 | SOLO TRAVELER | 5 | 7.6M LY | 2.5M LY | 2026-09-03 06:02 UTC |
+| 2 | POLARIS SEEKER 33 | 11 | 5.1M LY | 2.5M LY | 2026-08-31 02:45 UTC |
 | 3 | SOLAR STARGAZER 12 | 2 | 5.1M LY | 2.5M LY | 2026-09-02 12:44 UTC |
 | 4 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
 | 5 | ELITE DANGEROUS | 9 | 2.5M LY | 2.5M LY | 2026-09-03 04:50 UTC |
@@ -47,6 +47,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-03 06:02 UTC | SOLO TRAVELER | ANDROMEDA | 2.5M LY |
 | 2026-09-03 05:59 UTC | SOLO TRAVELER | ORION · RIGEL | 860 LY |
 | 2026-09-03 05:30 UTC | DEEP SIGNAL 79 | SIRIUS | 8.6 LY |
 | 2026-09-03 05:11 UTC | SIN OF A SOLAR EMPIRE | ORION · RIGEL | 860 LY |

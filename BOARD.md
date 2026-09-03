@@ -1,12 +1,12 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 21:43 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 21:45 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
 | # | CALL-SIGN | TRIPS | LIGHT-YEARS | FARTHEST | LAST SEEN |
 |---|---|---|---|---|---|
-| 1 | SOLO TRAVELER | 5 | 7.6M LY | 2.5M LY | 2026-09-03 06:02 UTC |
+| 1 | SOLO TRAVELER | 6 | 7.6M LY | 2.5M LY | 2026-09-03 21:45 UTC |
 | 2 | POLARIS SEEKER 33 | 11 | 5.1M LY | 2.5M LY | 2026-08-31 02:45 UTC |
 | 3 | SOLAR STARGAZER 12 | 2 | 5.1M LY | 2.5M LY | 2026-09-02 12:44 UTC |
 | 4 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
@@ -52,6 +52,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-03 21:45 UTC | SOLO TRAVELER | PROCYON | 11.5 LY |
 | 2026-09-03 13:37 UTC | DEEP GHOST 44 | 40 ERIDANI A | 16.3 LY |
 | 2026-09-03 10:46 UTC | NORDIC SEEKER 71 | ANDROMEDA | 2.5M LY |
 | 2026-09-03 10:45 UTC | NORDIC SEEKER 71 | LUNA · FAR SIDE | 0 LY |

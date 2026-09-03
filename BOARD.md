@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 05:24 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 05:30 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -30,13 +30,14 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 | 22 | POLARIS NAVIGATOR 55 | 2 | 33.6 LY | 25 LY | 2026-08-31 23:15 UTC |
 | 23 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
 | 24 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
-| 25 | ANDROMEDAN PROBE 11 | 1 | 8.6 LY | 8.6 LY | 2026-09-03 02:38 UTC |
-| 26 | MARTIAN ENVOY 37 | 1 | 8.6 LY | 8.6 LY | 2026-09-02 02:04 UTC |
-| 27 | LUNAR ENVOY 32 | 1 | 8.6 LY | 8.6 LY | 2026-09-01 18:58 UTC |
-| 28 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
-| 29 | MARTIAN SEEKER 38 | 1 | 0 LY | 0 LY | 2026-09-03 04:12 UTC |
-| 30 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
-| 31 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
+| 25 | DEEP SIGNAL 79 | 1 | 8.6 LY | 8.6 LY | 2026-09-03 05:30 UTC |
+| 26 | ANDROMEDAN PROBE 11 | 1 | 8.6 LY | 8.6 LY | 2026-09-03 02:38 UTC |
+| 27 | MARTIAN ENVOY 37 | 1 | 8.6 LY | 8.6 LY | 2026-09-02 02:04 UTC |
+| 28 | LUNAR ENVOY 32 | 1 | 8.6 LY | 8.6 LY | 2026-09-01 18:58 UTC |
+| 29 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
+| 30 | MARTIAN SEEKER 38 | 1 | 0 LY | 0 LY | 2026-09-03 04:12 UTC |
+| 31 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
+| 32 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
 **SEEN BY 263 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -46,6 +47,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-03 05:30 UTC | DEEP SIGNAL 79 | SIRIUS | 8.6 LY |
 | 2026-09-03 05:11 UTC | SIN OF A SOLAR EMPIRE | ORION · RIGEL | 860 LY |
 | 2026-09-03 04:50 UTC | ELITE DANGEROUS | ARCTURUS | 36.7 LY |
 | 2026-09-03 04:12 UTC | MARTIAN SEEKER 38 | LUNA · FAR SIDE | 0 LY |

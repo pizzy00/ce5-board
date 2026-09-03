@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 02:36 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03 02:38 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -29,11 +29,12 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 | 21 | POLARIS NAVIGATOR 55 | 2 | 33.6 LY | 25 LY | 2026-08-31 23:15 UTC |
 | 22 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
 | 23 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
-| 24 | MARTIAN ENVOY 37 | 1 | 8.6 LY | 8.6 LY | 2026-09-02 02:04 UTC |
-| 25 | LUNAR ENVOY 32 | 1 | 8.6 LY | 8.6 LY | 2026-09-01 18:58 UTC |
-| 26 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
-| 27 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
-| 28 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
+| 24 | ANDROMEDAN PROBE 11 | 1 | 8.6 LY | 8.6 LY | 2026-09-03 02:38 UTC |
+| 25 | MARTIAN ENVOY 37 | 1 | 8.6 LY | 8.6 LY | 2026-09-02 02:04 UTC |
+| 26 | LUNAR ENVOY 32 | 1 | 8.6 LY | 8.6 LY | 2026-09-01 18:58 UTC |
+| 27 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
+| 28 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
+| 29 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
 **SEEN BY 230 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -43,6 +44,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-03
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-03 02:38 UTC | ANDROMEDAN PROBE 11 | SIRIUS | 8.6 LY |
 | 2026-09-03 02:24 UTC | SOLO TRAVELER | ANDROMEDA | 2.5M LY |
 | 2026-09-02 12:44 UTC | SOLAR STARGAZER 12 | ANDROMEDA | 2.5M LY |
 | 2026-09-02 03:18 UTC | TALL WHITE PILOT 91 | DEEP OCEAN | 0 LY |

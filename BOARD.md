@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-04 21:21 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-04 21:25 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -19,7 +19,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-04
 | 11 | DEEP SIGNAL 79 | 2 | 2.5M LY | 2.5M LY | 2026-09-04 06:30 UTC |
 | 12 | PLEIADIAN WANDERER 77 | 1 | 2.5M LY | 2.5M LY | 2026-09-03 08:47 UTC |
 | 13 | TALL WHITE STARGAZER 84 | 1 | 2.5M LY | 2.5M LY | 2026-08-30 06:46 UTC |
-| 14 | LYRAN BEACON 67 | 1 | 860 LY | 860 LY | 2026-09-04 21:21 UTC |
+| 14 | LYRAN BEACON 67 | 2 | 860 LY | 860 LY | 2026-09-04 21:25 UTC |
 | 15 | SIN OF A SOLAR EMPIRE | 1 | 860 LY | 860 LY | 2026-09-03 05:11 UTC |
 | 16 | GREY SIGNAL 64 | 1 | 860 LY | 860 LY | 2026-09-01 23:02 UTC |
 | 17 | ORION ORBITER 41 | 1 | 860 LY | 860 LY | 2026-08-31 21:33 UTC |
@@ -55,6 +55,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-04
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-04 21:25 UTC | LYRAN BEACON 67 | LUNA · FAR SIDE | 0 LY |
 | 2026-09-04 21:21 UTC | LYRAN BEACON 67 | ORION · RIGEL | 860 LY |
 | 2026-09-04 20:09 UTC | TALL WHITE NAVIGATOR 73 | SIRIUS | 8.6 LY |
 | 2026-09-04 15:37 UTC | LYRAN CARRIER 39 | ALPHA CENTAURI B | 4.37 LY |

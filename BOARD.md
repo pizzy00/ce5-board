@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-08 01:31 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-08 02:22 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -26,7 +26,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-08
 | 18 | GREY SIGNAL 64 | 1 | 860 LY | 860 LY | 2026-09-01 23:02 UTC |
 | 19 | ORION ORBITER 41 | 1 | 860 LY | 860 LY | 2026-08-31 21:33 UTC |
 | 20 | TALL WHITE SCOUT 54 | 1 | 860 LY | 860 LY | 2026-08-28 05:00 UTC |
-| 21 | NORDIC SIGNAL 48 | 3 | 492.2 LY | 444 LY | 2026-09-05 04:23 UTC |
+| 21 | NORDIC SIGNAL 48 | 4 | 492.2 LY | 444 LY | 2026-09-08 02:21 UTC |
 | 22 | ARCTURIAN ENVOY 55 | 3 | 487.7 LY | 444 LY | 2026-09-01 15:10 UTC |
 | 23 | ARCTURIAN LANTERN 78 | 5 | 483.3 LY | 444 LY | 2026-08-29 14:12 UTC |
 | 24 | MANTID RELAY 70 | 2 | 483.3 LY | 444 LY | 2026-08-28 06:41 UTC |
@@ -59,6 +59,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-08
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-08 02:21 UTC | NORDIC SIGNAL 48 | BERMUDA TRIANGLE | 0 LY |
 | 2026-09-06 22:48 UTC | ARCTURIAN CARRIER 47 | ORION · RIGEL | 860 LY |
 | 2026-09-06 22:38 UTC | ARCTURIAN CARRIER 47 | BERMUDA TRIANGLE | 0 LY |
 | 2026-09-06 19:43 UTC | MANTID CARRIER 95 | VEGA · LYRA | 25 LY |
@@ -158,7 +159,6 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-08
 | 2026-08-28 03:30 UTC | POLARIS PILOT 64 | ANDROMEDA | 2.5M LY |
 | 2026-08-28 03:20 UTC | PIZZY PICKUP | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 03:16 UTC | PIZZY PICKUP | ZETA RETICULI | 39.3 LY |
-| 2026-08-28 02:45 UTC | POLARIS SEEKER 33 | PLEIADES · TAYGETA | 444 LY |
 
 ## IDEAS FROM TRAVELLERS
 

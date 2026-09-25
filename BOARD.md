@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-25 06:00 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-25 14:33 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -9,9 +9,9 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-25
 | 1 | SOLO TRAVELER | 8 | 12.7M LY | 2.5M LY | 2026-09-04 05:39 UTC |
 | 2 | POLARIS SEEKER 33 | 11 | 5.1M LY | 2.5M LY | 2026-08-31 02:45 UTC |
 | 3 | SOLAR STARGAZER 12 | 2 | 5.1M LY | 2.5M LY | 2026-09-02 12:44 UTC |
-| 4 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
-| 5 | ELITE DANGEROUS | 9 | 2.5M LY | 2.5M LY | 2026-09-03 04:50 UTC |
-| 6 | NORDIC SIGNAL 48 | 6 | 2.5M LY | 2.5M LY | 2026-09-20 18:36 UTC |
+| 4 | NORDIC SIGNAL 48 | 7 | 2.5M LY | 2.5M LY | 2026-09-25 14:33 UTC |
+| 5 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
+| 6 | ELITE DANGEROUS | 9 | 2.5M LY | 2.5M LY | 2026-09-03 04:50 UTC |
 | 7 | VEGAN DRIFTER 37 | 3 | 2.5M LY | 2.5M LY | 2026-09-02 00:09 UTC |
 | 8 | ORION DRIFTER 87 | 2 | 2.5M LY | 2.5M LY | 2026-08-28 21:27 UTC |
 | 9 | POLARIS PILOT 64 | 4 | 2.5M LY | 2.5M LY | 2026-08-28 04:39 UTC |
@@ -61,6 +61,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-25
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-09-25 14:33 UTC | NORDIC SIGNAL 48 | ORION · RIGEL | 860 LY |
 | 2026-09-20 18:36 UTC | NORDIC SIGNAL 48 | ANDROMEDA | 2.5M LY |
 | 2026-09-13 17:36 UTC | ANDROMEDAN CARRIER 48 | PLEIADES · TAYGETA | 444 LY |
 | 2026-09-13 17:24 UTC | ANDROMEDAN CARRIER 48 | SIRIUS | 8.6 LY |
@@ -160,7 +161,6 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-09-25
 | 2026-08-28 06:41 UTC | MANTID RELAY 70 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 06:40 UTC | MANTID RELAY 70 | ZETA RETICULI | 39.3 LY |
 | 2026-08-28 05:00 UTC | TALL WHITE SCOUT 54 | ORION · RIGEL | 860 LY |
-| 2026-08-28 04:39 UTC | POLARIS PILOT 64 | ARCTURUS | 36.7 LY |
 
 ## IDEAS FROM TRAVELLERS
 

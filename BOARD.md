@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-10-01 19:58 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-10-01 20:00 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -9,7 +9,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-10-01
 | 1 | SOLO TRAVELER | 8 | 12.7M LY | 2.5M LY | 2026-09-04 05:39 UTC |
 | 2 | POLARIS SEEKER 33 | 11 | 5.1M LY | 2.5M LY | 2026-08-31 02:45 UTC |
 | 3 | SOLAR STARGAZER 12 | 2 | 5.1M LY | 2.5M LY | 2026-09-02 12:44 UTC |
-| 4 | NORDIC SIGNAL 48 | 7 | 2.5M LY | 2.5M LY | 2026-09-25 14:33 UTC |
+| 4 | NORDIC SIGNAL 48 | 8 | 2.5M LY | 2.5M LY | 2026-10-01 20:00 UTC |
 | 5 | MANTID DRIFTER 49 | 6 | 2.5M LY | 2.5M LY | 2026-08-30 01:57 UTC |
 | 6 | ELITE DANGEROUS | 9 | 2.5M LY | 2.5M LY | 2026-09-03 04:50 UTC |
 | 7 | VEGAN DRIFTER 37 | 3 | 2.5M LY | 2.5M LY | 2026-09-02 00:09 UTC |
@@ -62,6 +62,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-10-01
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-10-01 20:00 UTC | NORDIC SIGNAL 48 | PLEIADES · TAYGETA | 444 LY |
 | 2026-09-27 03:46 UTC | PLEIADIAN RELAY 68 | ORION · RIGEL | 860 LY |
 | 2026-09-25 14:33 UTC | NORDIC SIGNAL 48 | ORION · RIGEL | 860 LY |
 | 2026-09-20 18:36 UTC | NORDIC SIGNAL 48 | ANDROMEDA | 2.5M LY |
@@ -161,7 +162,6 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-10-01
 | 2026-08-28 19:37 UTC | ELITE DANGEROUS | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 18:27 UTC | POLARIS SEEKER 33 | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-28 06:41 UTC | MANTID RELAY 70 | PLEIADES · TAYGETA | 444 LY |
-| 2026-08-28 06:40 UTC | MANTID RELAY 70 | ZETA RETICULI | 39.3 LY |
 
 ## IDEAS FROM TRAVELLERS
 

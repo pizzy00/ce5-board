@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-04 11:55 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-04 12:02 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -50,9 +50,10 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-04
 | 42 | LUNAR ENVOY 32 | 1 | 8.6 LY | 8.6 LY | 2026-09-01 18:58 UTC |
 | 43 | ANDROMEDAN LISTENER 81 | 1 | 8.6 LY | 8.6 LY | 2026-08-31 21:13 UTC |
 | 44 | LYRAN CARRIER 39 | 1 | 4.4 LY | 4.37 LY | 2026-09-04 15:37 UTC |
-| 45 | MARTIAN SEEKER 38 | 1 | 0 LY | 0 LY | 2026-09-03 04:12 UTC |
-| 46 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
-| 47 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
+| 45 | POLARIS LISTENER 62 | 1 | 0 LY | 0 LY | 2026-11-04 12:02 UTC |
+| 46 | MARTIAN SEEKER 38 | 1 | 0 LY | 0 LY | 2026-09-03 04:12 UTC |
+| 47 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
+| 48 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
 **SEEN BY 468 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
@@ -62,6 +63,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-04
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-11-04 12:02 UTC | POLARIS LISTENER 62 | BERMUDA TRIANGLE | 0 LY |
 | 2026-10-29 01:11 UTC | NORDIC SIGNAL 48 | BERMUDA TRIANGLE | 0 LY |
 | 2026-10-29 01:07 UTC | NORDIC SIGNAL 48 | VEGA · LYRA | 25 LY |
 | 2026-10-01 20:00 UTC | NORDIC SIGNAL 48 | PLEIADES · TAYGETA | 444 LY |
@@ -161,7 +163,6 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-04
 | 2026-08-28 21:18 UTC | ORION DRIFTER 87 | PLEIADES · TAYGETA | 444 LY |
 | 2026-08-28 20:36 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |
 | 2026-08-28 19:38 UTC | ELITE DANGEROUS | SIRIUS | 8.6 LY |
-| 2026-08-28 19:37 UTC | ELITE DANGEROUS | PLEIADES · TAYGETA | 444 LY |
 
 ## IDEAS FROM TRAVELLERS
 

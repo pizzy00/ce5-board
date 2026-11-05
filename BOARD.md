@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05 13:34 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05 13:37 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -42,8 +42,8 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05
 | 34 | TRIANGLE SIGNAL 60 | 2 | 32.6 LY | 16.3 LY | 2026-08-31 22:30 UTC |
 | 35 | LUNAR CARRIER 46 | 1 | 25 LY | 25 LY | 2026-09-03 07:58 UTC |
 | 36 | DEEP GHOST 44 | 1 | 16.3 LY | 16.3 LY | 2026-09-03 13:37 UTC |
-| 37 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
-| 38 | ZETA GHOST 77 | 1 | 11.5 LY | 11.5 LY | 2026-11-05 13:34 UTC |
+| 37 | ZETA GHOST 77 | 2 | 15.9 LY | 11.5 LY | 2026-11-05 13:36 UTC |
+| 38 | LYRAN SIGNAL 37 | 2 | 11.5 LY | 11.5 LY | 2026-08-29 15:28 UTC |
 | 39 | MANTID LISTENER 40 | 1 | 11.5 LY | 11.5 LY | 2026-09-08 02:33 UTC |
 | 40 | TALL WHITE NAVIGATOR 73 | 1 | 8.6 LY | 8.6 LY | 2026-09-04 20:09 UTC |
 | 41 | ANDROMEDAN PROBE 11 | 1 | 8.6 LY | 8.6 LY | 2026-09-03 02:38 UTC |
@@ -64,6 +64,7 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05
 
 | WHEN | CALL-SIGN | WENT TO | LIGHT-YEARS |
 |---|---|---|---|
+| 2026-11-05 13:36 UTC | ZETA GHOST 77 | ALPHA CENTAURI B | 4.37 LY |
 | 2026-11-05 13:34 UTC | ZETA GHOST 77 | PROCYON | 11.5 LY |
 | 2026-11-04 12:02 UTC | POLARIS LISTENER 62 | BERMUDA TRIANGLE | 0 LY |
 | 2026-10-29 01:11 UTC | NORDIC SIGNAL 48 | BERMUDA TRIANGLE | 0 LY |
@@ -163,7 +164,6 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05
 | 2026-08-28 21:23 UTC | POLARIS SEEKER 33 | SIRIUS | 8.6 LY |
 | 2026-08-28 21:20 UTC | POLARIS SEEKER 33 | SIRIUS | 8.6 LY |
 | 2026-08-28 21:18 UTC | ORION DRIFTER 87 | PLEIADES · TAYGETA | 444 LY |
-| 2026-08-28 20:36 UTC | ELITE DANGEROUS | BERMUDA TRIANGLE | 0 LY |
 
 ## IDEAS FROM TRAVELLERS
 

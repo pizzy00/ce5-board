@@ -1,6 +1,6 @@
 # CE-5 BEACON — TRAVELLERS BOARD
 
-Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05 00:44 UTC
+Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05 13:30 UTC
 
 ## LEADERS — LIGHT-YEARS ALL TOLD
 
@@ -55,9 +55,9 @@ Who went where, from https://pizzy00.github.io/ce5-beacon/ · updated 2026-11-05
 | 47 | TALL WHITE PILOT 91 | 1 | 0 LY | 0 LY | 2026-09-02 03:18 UTC |
 | 48 | NORDIC GHOST 32 | 1 | 0 LY | 0 LY | 2026-09-01 13:02 UTC |
 
-**SEEN BY 469 DEVICE-DAYS ALL TOLD** (one count per device per day)
+**SEEN BY 471 DEVICE-DAYS ALL TOLD** (one count per device per day)
 
-**CONSOLES BY LANGUAGE** · EN 351 · FR 10 · PT 9 · RU 8 · ZH 7 · ES 4 · DE 2
+**CONSOLES BY LANGUAGE** · EN 353 · FR 10 · PT 9 · RU 8 · ZH 7 · ES 4 · DE 2
 
 ## THE LAST 100 TRIPS
 
